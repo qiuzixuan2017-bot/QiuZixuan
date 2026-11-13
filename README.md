@@ -1,7 +1,7 @@
 # 邱梓轩 · Zixuan Qiu
 
-中英双语个人学术主页与完整简历。页面默认展示中英对照，也可切换为单一语言。
-Academic homepage and full CV with paired translations and optional Chinese-only and English-only views.
+中英双语个人学术主页，涵盖简介、论文、项目、任职、荣誉、教学、服务、著作和专利。页面默认展示中英对照，也可切换为单一语言。
+Academic homepage with bilingual publications, projects, appointments, honors, teaching, service, books and patents and optional Chinese-only and English-only views.
 
 ## Preview / 预览
 
@@ -17,6 +17,6 @@ Place the files in the root of the Pages repository. In **Settings → Pages**, 
 
 ## Edit / 更新
 
-Edit the paired entries in `index.html`. The Chinese CV uses the source document’s font families and point sizes, with fallbacks for devices that do not have the source fonts. Keep each entry’s `lang` attributes and `translation` classes so the language controls continue to work.
+Edit the paired entries in `index.html`. The original Chinese CV layout is available as a PDF. Keep each entry’s `lang` attributes and `translation` classes so the language controls continue to work.
 
-中文简历采用 Word 原字体名称和字号，缺少对应字体的设备会使用系统替代字体。在 `index.html` 中更新对应的中英文条目，并保留 `lang` 属性和 `translation` 类，以便切换语言。
+原排版中文简历可在 PDF 中查看。在 `index.html` 中更新对应的中英文条目，并保留 `lang` 属性和 `translation` 类，以便切换语言。
